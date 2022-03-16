@@ -1,6 +1,8 @@
 :root{
     --bg-jumbotron-about:#1ABC9C;
+    --bg-footer-primary:#3A546D;
 }
+
 .container{
     width: 1440px;
     margin: 0 auto;
@@ -18,10 +20,17 @@ h1{
 header{
     background-color: var(--bg-jumbotron-about);
 }
+hr{
+    width: 25%;
+    border: 3 solid black;
+}
 .jumbotron{
     background-color: var(--bg-jumbotron-about);
     color: white;
     text-transform: uppercase;
+}
+.footer-bg-primary{
+    background-color: var(--bg-footer-primary);
 }
 .about{
     background-color: var(--bg-jumbotron-about);
@@ -36,8 +45,14 @@ header{
 .margin-col{
     margin: 0 5%;
 }
-@media only screen and (max-width: 768px){
-    .margin-col{
-        margin: 0px;
-    }
+
+.nav-grow{
+    flex-grow: 0;
+}
+.img-center{
+    height: 250px;
+    width: 250px;
+}
+.unorder-li{
+    list-style-type: none;
 }
