@@ -1,8 +1,11 @@
 :root{
     --bg-jumbotron-about:#1ABC9C;
     --bg-footer-primary:#3A546D;
+    --bg-footer-menu:#2C3E50;
 }
-
+.footer-bg-menu{
+    background-color: var(--bg-footer-menu);
+}
 .container{
     width: 1440px;
     margin: 0 auto;
@@ -23,6 +26,9 @@ header{
 hr{
     width: 25%;
     border: 3 solid black;
+}
+.navbar-color{
+    color: 
 }
 .jumbotron{
     background-color: var(--bg-jumbotron-about);
