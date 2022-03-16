@@ -6,10 +6,7 @@
 .footer-bg-menu{
     background-color: var(--bg-footer-menu);
 }
-.container{
-    width: 1440px;
-    margin: 0 auto;
-}
+
 .container *{
     text-transform: uppercase;
 }
