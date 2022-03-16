@@ -1,5 +1,5 @@
 :root{
-    --banner-color:#1ABC9C;
+    --bg-jumbotron-about:#1ABC9C;
 }
 .container{
     width: 1440px;
@@ -16,17 +16,28 @@ h1{
     text-transform: uppercase;
 }
 header{
-    background-color: var(--banner-color);
+    background-color: var(--bg-jumbotron-about);
+}
+.jumbotron{
+    background-color: var(--bg-jumbotron-about);
+    color: white;
+    text-transform: uppercase;
 }
 .about{
-    background-color: var(--banner-color);
+    background-color: var(--bg-jumbotron-about);
 }
-main .d-flex img{
-    width: 300px;
-}
+
 .text{
     column-gap: 1rem;
 }
 .text p{
     max-width: 300px;
+}
+.margin-col{
+    margin: 0 5%;
+}
+@media only screen and (max-width: 768px){
+    .margin-col{
+        margin: 0px;
+    }
 }

@@ -1,0 +1,31 @@
+:root{
+    --bg-menu-sx: #2A138B;
+    --bg-menu-dx:#CE4848;
+    --bg-jumbotron-about:#138B47;
+    --portfolio-contact:#13178B;
+}
+.nav .d-flex{
+    height: 105px;
+}
+.menu-sx{
+    background-color: var(--bg-menu-sx);
+}
+.menu-dx{
+    background-color: var(--bg-menu-dx);
+}
+.jumbotron{
+    background-color: var(--bg-jumbotron-about);
+    height: 685px;
+}
+.portfolio{
+    background-color: var(--portfolio-contact);
+    height: 992px;
+}
+.about{
+    background-color: var(--bg-jumbotron-about);
+    height: 570px;
+}
+.contact{
+    background-color: var(--portfolio-contact);
+    height: 800px;
+}
