@@ -59,3 +59,13 @@ hr{
 .unorder-li{
     list-style-type: none;
 }
+
+.navbar-toggler-icon{
+    display:inline-block;
+    width:1.5em;
+    height:1.5em;
+    vertical-align:middle;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%
+}
